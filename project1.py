@@ -1,9 +1,3 @@
-
-
-#8199914650:AAHFY788TEVCUwlrl-3FVtseJnOu3lc-_W8
-#882607004
-#-1002523834582
-
 import os
 import json
 import uuid
@@ -15,7 +9,7 @@ from aiogram.filters import Command
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 # — Настройки —
-BOT_TOKEN = os.getenv("BOT_TOKEN") or "8199914650:AAHFY788TEVCUwlrl-3FVtseJnOu3lc-_W8"
+BOT_TOKEN = os.getenv("BOT_TOKEN") or "token from tg"
 ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID") or 882607004)
 TARGET_CHANNEL_ID = int(os.getenv("TARGET_CHANNEL_ID") or -1002533354742)
 
